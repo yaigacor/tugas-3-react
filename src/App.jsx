@@ -32,15 +32,13 @@ export default function App() {
      
       <Navbar simpanCount={simpan.length} />
 
-      {/* HERO */}
       <div className="px-6 py-10 border-b border-gray-800">
         <h1 className="text-3xl font-bold mb-1">
-          Temukan Film <span className="text-yellow-400">Favoritmu</span>
+          Temukan Film <span className="text-red-600">Favoritmu</span>
         </h1>
         <p className="text-gray-400 text-sm">{MOVIES.length} film tersedia</p>
       </div>
 
-      {/* GRID FILM */}
       <main className="max-w-4xl mx-auto px-6 py-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {MOVIES.map(movie => (
