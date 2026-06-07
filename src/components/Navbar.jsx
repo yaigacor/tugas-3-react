@@ -1,5 +1,5 @@
 
-export default function Navbar({ simpanCount }) {
+function Navbar({ simpanCount }) {
   return (
     <nav className="bg-gray-900 border-b border-gray-800 px-6 py-4 flex items-center justify-between sticky top-0 z-10">
 
@@ -21,3 +21,4 @@ export default function Navbar({ simpanCount }) {
     </nav>
   );
 }
+export default Navbar
